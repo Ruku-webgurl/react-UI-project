@@ -8,7 +8,7 @@ const App = () => {
   const users = [
     {
       img: "https://i.pinimg.com/736x/9d/97/2a/9d972a3fcdeb46139892066ff872c2a6.jpg",
-      intro: "“Love is not necessary; power is the only true necessity.” 13. “Love gives birth to sacrifice, which brings hatred and lets you know pain.",
+      intro: "Life isn’t permanent or predictable. You never know when you will run out of time. The best thing you can do is, to be honest with those around you and let them know how you really feel. You never know if you have a tomorrow to come.",
       tag: "Obito x Rin"
 
     },
@@ -20,8 +20,7 @@ const App = () => {
     },
     {
       img: "https://i.pinimg.com/736x/e8/6e/03/e86e036f14f71704f0cef9d0cbd9b715.jpg",
-      intro: "“Love is not necessary; power is the only true necessity.” 13. “Love gives birth to sacrifice, which brings hatred and lets you know pain.",
-      tag: "Obito x Rin"
+      intro: "There were undoubtedly many points in the series where Obito appeared to be the villain. However, we hope this collection of his best quotes was able to open your eyes to how essential he actually was for Naruto and his team to win"
 
     },
     {
