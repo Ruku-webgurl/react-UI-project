@@ -36,14 +36,14 @@ const Page2 = () => {
 
     return (
         <div className="min-h-screen w-full bg-gray-700 text-white">
-            <div className="max-w-6xl mx-auto p-8">
+            <div className="max-w-6xl mx-auto p-4 md:p-8">
                 <h1 className="text-3xl font-bold mb-4">Memory Diaries</h1>
                 <p className="text-gray-200 mb-6">A collection of moments captured in photos. Click any image to view it in full size.</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {memories.map((m, i) => (
                         <figure key={i} className="relative bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                            <img src={m.img} alt={m.title} className="w-full h-56 object-cover" />
+                            <img src={m.img} alt={m.title} className="w-full h-44 sm:h-56 object-cover" />
                             <figcaption className="p-4 bg-linear-to-t from-black/60 to-transparent absolute bottom-0 left-0 right-0 text-white">
                                 <div className="flex items-center justify-between">
                                     <div>
